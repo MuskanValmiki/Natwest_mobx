@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(97, 92, 92);
+  color: rgb(45, 19, 2);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+code {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+.heading{
+  border-bottom: 1px solid rgb(52, 194, 9);
+  color: tomato;
+  font-size: 39px;
+
+  text-align: center;
+}
+table{
+  border: 5px solid rgb(121, 13, 69);
+}
+.pettable tr th{
+  border: 2px solid rgb(1, 16, 4);
+  font-size: 29px;
+  margin-left: 300px;
+  width: 245px;
+}
+.ownertblee tr th{
+  border: 2px solid rgb(138, 4, 111);
+  font-size: 29px;
+  margin-left: 300px;
+  width: 400px;
+}
+.ownerbutton:hover{
+  cursor: pointer;
+  background-color: rgb(130, 7, 77);
+}
+.ownerbutton{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.petbutton:hover{
+  cursor: pointer;
+  background-color: rgb(130, 7, 77);
+}
+.petbutton{
+  font-size: 20px;
+  margin-top: 15px;
+}
